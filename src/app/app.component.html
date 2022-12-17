@@ -1,0 +1,12 @@
+<div id="app-cont" (click)="clickedScreen()">
+  <div class="label-cont" *ngIf="finished == false">
+    <h1 id="label" *ngIf="!firstClick">Click the screen to reveal your code.</h1>
+    <h1 id="label" *ngIf="firstClick">Click the screen <br> {{clickThreshold}} <br> more times to reveal your code.</h1>
+  </div>
+  <div class="label-cont" *ngIf="finished == true">
+    <h1 id="label">Congrats, all of your hard work paid off.<br> Your code is {{code}}</h1>
+  </div>
+  <div id="photo">
+    <img src="./assets/merryXmas.png" alt="Girl in a jacket" width="300" onContextMenu="return false;">
+  </div>
+</div>

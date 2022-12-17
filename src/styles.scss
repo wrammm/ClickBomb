@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#app-cont {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    user-select: none;
+}
+
+img {
+    user-select: none;
+}
+
+.label-cont {
+    padding: 16px;
+}
+
+#label {
+    text-align: center;
+    color: white;
+}
+
+#photo {
+    text-align: center;
+    user-select: none;
+}
