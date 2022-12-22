@@ -9,7 +9,7 @@ export class AppComponent implements OnInit {
   firstClick = false;
   clickThreshold = 30000;
   finished = false;
-  code = 12345678;
+  code = '3SBAB';
 
   ngOnInit() {
     const clicksRemaining = localStorage.getItem('clicksRemaining');
